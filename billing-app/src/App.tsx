@@ -1,4 +1,5 @@
 import './App.css'
+import ReloadPrompt from './ReloadPrompt'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           Tailwind CSS is working! 🎉
         </p>
       </div>
+      <ReloadPrompt />
     </div>
   )
 }
